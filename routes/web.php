@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// php artisan make:controller SurveyController --resource --model=Models\\Survey
